@@ -3,7 +3,7 @@ from rest_framework import routers
 from .views import SheepViewSet
 
 router = routers.DefaultRouter()
-router.register(r'sheeps', SheepViewSet, basename="sheep")
+router.register(r'sheep', SheepViewSet, basename="sheep")
 
 urlpatterns = [
     path('', include(router.urls)),
