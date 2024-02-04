@@ -1,1 +1,1 @@
-web: gunicorn farmapi.wsgi --log-file -
+ web: gunicorn farmapi.wsgi --log-file -
