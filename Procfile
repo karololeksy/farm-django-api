@@ -1,3 +1,1 @@
-python manage.py makemigrations
-python manage.py migrate
-web: gunicorn farmapi.wsgi --log-file -
+web: python manage.py migrate && gunicorn <project_name>.wsg
